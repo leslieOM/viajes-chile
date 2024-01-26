@@ -130,3 +130,7 @@ footer p i{
     font-size: 25px;
     margin: 0 3px;
 }
+
+footer a{
+    color: #fff;
+}
