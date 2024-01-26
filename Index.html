@@ -201,17 +201,20 @@
                     <hr>
                     <div class="form-group">
                         <label for="tbNombre">Nombre</label>
-                        <input type="text" class="form-control" id="tbNombre">
+                        <input type="text" class="form-control" id="tbNombre" 
+                        data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Ingresa tu nombre">
                     </div>
                     <div class="form-group">
                         <label for="tbAsunto">Asunto</label>
-                        <input type="text" class="form-control" id="tbAsunto">
+                        <input type="text" class="form-control" id="tbAsunto"data-bs-toggle="tooltip" 
+                        data-bs-placement="top" data-bs-title="ingresa un asunto">
                     </div>
                     <div class="form-group">
                         <label for="tbMensaje">Mensaje</label>
-                        <textarea type="text" class="form-control" rows="3" id="tbMensaje"></textarea>
+                        <textarea type="text" class="form-control" rows="3" id="tbMensaje" 
+                        data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Ingresa tu mensaje"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-color mt-3"data-bs-toggle="tooltip" data-bs-placement="top"
+                    <button id="enviarCorreo" type="submit" class="btn btn-color mt-3"data-bs-toggle="tooltip" data-bs-placement="top"
                      data-bs-title="Presiona para enviar a tu correo">Enviar</button>
                 </form>
             </div>
