@@ -105,3 +105,23 @@ body {
 .form-group{
     margin-top: 15px;
 }
+
+/* SECCIÓN FOOTER */
+
+footer{
+    background-color: rgb(27, 201, 231) !important;
+    color: #fff !important;
+    padding: 15px;
+    margin: 15px 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+footer p{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+footer p i{
+    font-size: 25px;
+    margin: 0 3px;
+}
