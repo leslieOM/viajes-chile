@@ -36,3 +36,29 @@ body {
 .carousel-item img{
     width: 100%;
 }
+
+/* SECCIÓN PRESENTACIÓN */
+
+.section-presentacion{
+    text-align: center;
+    color: #fff;
+}
+
+#dvPresentacion{
+    display: flex;
+}
+
+#dvPresentacion span{
+    width: 100%;
+    background-color: rgb(27, 201, 231);
+    display: block;
+    text-align: center;
+}
+
+#dvPresentacion p{
+    text-align: justify;
+}
+
+.columnas{
+    margin: 15px;
+}
