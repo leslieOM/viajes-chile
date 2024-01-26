@@ -85,3 +85,23 @@ body {
 .card-text{
     text-align: left;
 }
+
+/* SECCIÓN CONTACTO */
+
+.section-contacto{
+    color: #fff;
+    width: 100%;
+}
+
+.section-contacto h2{
+    text-align: center;
+}
+
+.btn-color{
+    background-color: rgb(27, 201, 231) !important;
+    color: #fff !important;
+}
+
+.form-group{
+    margin-top: 15px;
+}
