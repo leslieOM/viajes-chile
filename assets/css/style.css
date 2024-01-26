@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+
 body {
     font-family: 'Roboto', sans-serif !important;
     width: 100%;
